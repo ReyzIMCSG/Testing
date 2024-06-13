@@ -12,7 +12,9 @@ class Main {
                 System.out.println(calc(input));
             } catch (Exception e) {
                 // Если возникает исключение, выводим сообщение об ошибке
-                System.out.println("Нарушено одно из условий ввода чисел");
+                System.out.println("throws Exception");
+                // Завершаем программу ДОБАВЛЕНО!!!
+                System.exit(1);
             }
         }
         // Закрываем сканер
